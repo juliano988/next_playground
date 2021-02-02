@@ -1,0 +1,11 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+  @extend .bg-dark;
+  @extend .text-light;
+}
+
+#__next{
+  @extend .container;
+  text-align: center;
+}

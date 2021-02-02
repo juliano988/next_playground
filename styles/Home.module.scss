@@ -1,0 +1,13 @@
+.section:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 1px hsla(0,0%,0%,0.5);
+}
+
+.sec1_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec1_links{
+    color: inherit;
+}

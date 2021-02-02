@@ -1,0 +1,26 @@
+.center_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: justify;
+}
+
+.center_content *{
+    margin: 5px;
+}
+
+.center_content p{
+    text-align: justify;
+}
+
+.julio_photo{
+    max-height: 50vh;
+}
+
+@media (max-width: 575.98px) {
+    .center_content{
+        height: initial;
+        text-align: center;
+    }
+}
