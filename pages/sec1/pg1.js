@@ -4,7 +4,7 @@ import styles from '../../styles/sec1_Pg1.module.scss';
 
 export default function Pg1() {
 
-    const [mount, setMount] = useState(false)
+    const [mount, setMount] = useState(false);
 
     const contentDiv = useRef(null);
     const julioFariaDivRef = useRef(null);
